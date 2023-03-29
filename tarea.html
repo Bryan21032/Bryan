@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<meta charset="utf-8">
+    <meta name="description" content="FORMULARIO">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="icon" href="C:\Users\HP CORE i3\Downloads\tarea\books_library_1768.png"  type="image\png
+    " sizes="16x16">
+    <link rel="stylesheet" href="estilos2.css">
+    <meta name="theme-color" content="#F0DB4F">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="shortcut icon" type="image/png" href="./img/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
+    <link rel="apple-touch-startup-image" href="./img/favicon-16x16.png">
+    <link rel="manifest" href="./manifest.json">
+</head>
+<body>
+    <header id="cabeceralogo">
+        <div>
+            <h1 class="mi3">Formularios</h1>
+        </div>
+    </header>
+    <nav id="menuprincipal">
+        <ul id="listamenu">
+        <li><a href="index.html">Principal</a>
+        </ul>
+    </nav>
+<main>
+<section>
+    <form id="articulosprincipales">
+        <p class="mi4"><label>Nombre: <input type="text" name="nombre"
+         maxlength="Hombre"></label></p>
+        <p class="mi4"><label>Edad: <input type="date" name="fecha" value="2000-02-05"></p>
+        <p class="mi4"><label>Genero:<input type="radio" name="Genero" value="Hombre" checked> Hombre</label></p>
+        <p class="mi4"><label><input type="radio" name="Genero" value="Mujer" checked> Mujer
+            </label></p>
+        <p class="mi4"><label>Correo: <input type="email" name="correo"></label></p>
+        <p class="mi4"><label>Teléfono: <input type="tel" name="telefono"></label></p>
+        <p class="mi4"><label>Estidio:<input type="checkbox" name="estudio" value="secundaria" checked> secundaria</label></p>
+        <p class="mi4"><label>Estidio:<input type="checkbox" name="estudio" value="universitario" checked> universitario</label></p>
+        <p class="mi4">Color:<input type="color" name="micolor" value="#99BB00"></p>
+            
+        <form name="formulario" method="get" action="procesar.php">
+            <p class="mi4">
+            <label for="listado">Libros: </label>
+            <select name="libro" id="listado">
+            <option value="1">IT</option>
+            <option value="2">Carrie</option>
+            <option value="3">El Resplandor</option>
+            <option value="4">Misery</option>
+            </select>
+        </p>
+        <p class="mi4"><input type="submit" value="Enviar"></p>
+    </form>
+    
+</section>
+</main>
+<script src="./script.js"></script>
+</body>
+</html>
