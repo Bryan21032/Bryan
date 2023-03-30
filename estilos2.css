@@ -12,6 +12,9 @@
     background-color: #FFFFFF;
     border-radius: 10px;
 }
+meta {
+    display: inline;
+}
 
 #infoadicional {
     float: right;
