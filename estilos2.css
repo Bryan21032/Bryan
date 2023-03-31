@@ -9,6 +9,24 @@ body {
  padding: 0px; 
  background-color: #990000; 
 } 
+ 
+section { 
+ float: left; 
+ width: 61%; 
+ padding: 2%; 
+ margin-right: 5%; 
+ background-color: #999999; 
+} 
+aside { 
+ float: left; 
+ width: 26%;
+ padding: 2%; 
+ background-color: #CCCCCC; 
+} 
+.recuperar { 
+ clear: both; 
+} 
+
 @media (max-width: 1024px) { 
  body { 
  background-color: #3333FF; 
