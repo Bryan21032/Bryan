@@ -68,20 +68,16 @@ main>div {
     margin: 0px auto;
 }
 
-#articulosprincipales {
-    float: left;
-    width: 65%;
-    padding-top: 30px;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-}
+@media (max-width: 720px) {
+    #articulosprincipales {
+        width: 100%;
+    }
 
-#infoadicional {
-    float: right;
-    width: 29%;
-    padding: 2%;
-    background-color: #E7F1F5;
-    border-radius: 10px;
+    #infoadicional {
+        width: 90%;
+        padding: 5%;
+        margin-top: 20px;
+    }
 }
 
 #infoadicional h1 {
