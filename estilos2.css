@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;300;400;500;700&family=Roboto:ital,wght@0,100;0,400;0,500;1,700&display=swap');
-
-* {
-margin: 0px;
-padding: 0px;
+* { 
+ margin: 0px; 
+ padding: 0px; 
 } 
 section { 
  float: left; 
- width: 61%; 
- padding: 2%; 
- margin-right: 5%; 
+ width: 70%; 
  background-color: #999999; 
-} 
+}
 aside { 
  float: left; 
- width: 26%;
- padding: 2%; 
+ width: 30%; 
  background-color: #CCCCCC; 
 } 
+
 .recuperar { 
  clear: both; 
 }
