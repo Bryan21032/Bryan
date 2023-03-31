@@ -112,22 +112,7 @@ article time {
     border-radius: 5px;
 }
 
-.numerodia {
-    font: bold 36px Verdana, sans-serif;
-    color: #FFFFFF;
-    text-align: center;
-}
 
-.nombredia {
-    font: 12px Verdana, sans-serif;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-article h1 {
-    margin-bottom: 5px;
-    font: bold 30px Georgia, sans-serif;
-}
 
 article p {
     font: 18px Georgia, sans-serif;
@@ -175,6 +160,45 @@ figure img {
     font: bold 16px Arial, sans-serif;
     color: #666666;
     text-decoration: none;
+}
+
+@media (max-width: 1120px) {
+    article time {
+        position: static;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 10px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 0px;
+        border-radius: 0px;
+    }
+
+    .numerodia {
+        display: inline-block;
+        font: bold 14px Verdana, sans-serif;
+        color: #999999;
+        padding-right: 5px;
+    }
+
+    .nombredia {
+        display: inline-block;
+        font: bold 14px Verdana, sans-serif;
+        color: #999999;
+    }
+
+    article h1 {
+        margin-bottom: 0px;
+    }
+}
+
+#menuicono {
+    display: none;
+    width: 95%;
+    height: 38px;
+    padding: 12px 2% 0px 3%;
+    background-color: #9FC8D9;
+    border-top: 1px solid #094660;
+    border-bottom: 1px solid #094660;
 }
 
 @media (max-width: 480px) {
