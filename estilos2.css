@@ -6,26 +6,20 @@ padding: 0px;
 } 
 section { 
  float: left; 
- width: 100%; 
- padding-right: 260px; 
- margin-right: -240px; 
- box-sizing: border-box; 
-} 
-section > div { 
- padding: 20px; 
+ width: 61%; 
+ padding: 2%; 
+ margin-right: 5%; 
  background-color: #999999; 
 } 
 aside { 
  float: left; 
- width: 240px; 
- padding: 20px; 
+ width: 26%;
+ padding: 2%; 
  background-color: #CCCCCC; 
- box-sizing: border-box; 
 } 
 .recuperar { 
  clear: both; 
 }
-
 @media (max-width: 1024px) { 
  body { 
  background-color: #3333FF; 
@@ -115,9 +109,7 @@ main > div {
  color: #333333; 
  margin-bottom: 15px; 
 } 
-.recuperar { 
- clear: both; 
-} 
+
 article { 
  position: relative;
  padding: 0px 40px 20px 40px; 
