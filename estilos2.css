@@ -17,6 +17,11 @@ aside {
 .recuperar { 
  clear: both; 
 }
+body { 
+ margin: 0px; 
+ padding: 0px; 
+ background-color: #990000; 
+}
 @media (max-width: 1024px) { 
  body { 
  background-color: #3333FF; 
