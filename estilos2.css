@@ -176,6 +176,16 @@ figure img {
     color: #666666;
     text-decoration: none;
 }
+@media (max-width: 720px) { 
+ #articulosprincipales { 
+ width: 100%; 
+ } 
+ #infoadicional { 
+ width: 90%; 
+ padding: 5%; 
+ margin-top: 20px; 
+ } 
+} 
 
 @media (max-width: 480px) {
     #menuprincipal {
