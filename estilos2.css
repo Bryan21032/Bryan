@@ -4,6 +4,16 @@
     margin: 0px;
     padding: 0px;
 }
+#articulonoticias {
+    width: 580px;
+    padding: 10px;
+    border: 1px solid;
+    column-count: 2;
+    column-gap: 20px;
+    background-color: #9FC8D9;
+    border-top: 1px solid #094660;
+    border-bottom: 1px solid #094660;
+}
 
 #cabeceralogo {
     width: 96%;
