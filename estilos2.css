@@ -56,12 +56,6 @@
     text-decoration: none;
 }
 
-main {
-    width: 96%;
-    padding: 2%;
-    background-image: url("fondo.png");
-}
-
 main>div {
     max-width: 960px;
     margin: 0px auto;
@@ -80,9 +74,11 @@ main>div {
 }
 
 #infoadicional {
-    font: bold 18px Arial, sans-serif;
-    color: #333333;
-    margin-bottom: 15px;
+    flex: 1;
+    max-width: 280px;
+    padding: 2%;
+    background-color: #E7F1F5;
+    border-radius: 10px;
 }
 
 .recuperar {
