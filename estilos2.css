@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;300;400;500;700&family=Roboto:ital,wght@0,100;0,400;0,500;1,700&display=swap');
-
 * {
-    margin: 0px;
+    margin: 10px;
     padding: 0px;
 }
-
 .mi1 {
 
     font-family: 'Roboto', sans-serif;
@@ -31,7 +28,7 @@
 #cabeceralogo {
     width: 96%;
     height: 150px;
-    padding: 0% 4%;
+    padding: 0% 2%;
     background-color: #0F76A0;
 }
 
@@ -49,12 +46,11 @@
 #menuprincipal {
     width: 96%;
     height: 50px;
-    padding: 0% 4%;
+    padding: 0% 2%;
     background-color: #9FC8D9;
     border-top: 1px solid #094660;
     border-bottom: 1px solid #094660;
 }
-
 
 #menuprincipal>div {
     max-width: 960px;
@@ -80,7 +76,7 @@
 
 
 main>div {
-    max-width: 990px;
+    max-width: 960px;
     margin: 0px auto;
 
 }
@@ -108,8 +104,7 @@ main>div {
     flex: 1;
     margin-right: 20px;
     padding-top: 30px;
-    margin-left: 20px;
-    
+
 }
 #infoadicional h1 {
     font: bold 18px Arial, sans-serif;
@@ -139,7 +134,7 @@ figure {
 
 #pielogo {
     width: 96%;
-    padding: 4%;
+    padding: 2%;
     background-color: #0F76A0;
 }
 
@@ -202,9 +197,9 @@ figure {
 
 #menuicono {
     display: none;
-    width: 100%;
+    width: 95%;
     height: 38px;
-    padding: 4px 4% 0px 4%;
+    padding: 12px 2% 0px 3%;
     background-color: #9FC8D9;
     border-top: 1px solid #094660;
     border-bottom: 1px solid #094660;
@@ -215,12 +210,12 @@ figure {
         display: none;
         width: 100%;
         height: 100%;
-        padding: 2%;
+        padding: 0%;
     }
 
     #menuprincipal li {
         display: block;
-        margin-right: 20px;
+        margin-right: 0px;
         text-align: center;
     }
 
