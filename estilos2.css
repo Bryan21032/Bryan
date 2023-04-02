@@ -4,6 +4,8 @@
     margin: 0px;
     padding: 0px;
 }
+
+
 .mi1 {
 
     font-family: 'Roboto', sans-serif;
@@ -26,6 +28,7 @@
     font-family: 'Roboto Serif', serif;
     font-weight: 400;
 }
+
 #cabeceralogo {
     width: 96%;
     height: 150px;
@@ -47,9 +50,6 @@
 #menuprincipal {
     width: 96%;
     height: 50px;
-
-
-
     padding: 0% 2%;
     background-color: #9FC8D9;
     border-top: 1px solid #094660;
@@ -78,14 +78,17 @@
     text-decoration: none;
 }
 
+
 main>div {
     max-width: 960px;
     margin: 0px auto;
+   
 }
 
 @media (max-width: 720px) {
     #articulosprincipales {
         width: 100%;
+        
     }
 
     #infoadicional {
@@ -96,11 +99,9 @@ main>div {
 }
 
 #infoadicional {
-    flex: 1;
-    max-width: 280px;
-    padding: 2%;
-    background-color: #E7F1F5;
-    border-radius: 10px;
+    font: bold 18px Arial, sans-serif;
+    color: #333333;
+    margin-bottom: 15px;
 }
 
 .recuperar {
@@ -121,11 +122,7 @@ figure {
     margin: 10px 0px;
 }
 
-figure img {
-    max-width: 98%;
-    padding: 1%;
-    border: 1px solid;
-}
+
 
 #pielogo {
     width: 96%;
@@ -192,9 +189,9 @@ figure img {
 
 #menuicono {
     display: none;
-    width: 100%;
-    height: 37px;
-    padding: 2px 1% 2px 1%;
+    width: 95%;
+    height: 38px;
+    padding: 12px 2% 0px 3%;
     background-color: #9FC8D9;
     border-top: 1px solid #094660;
     border-bottom: 1px solid #094660;
