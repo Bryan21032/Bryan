@@ -4,16 +4,6 @@
     margin: 0px;
     padding: 0px;
 }
-body> div{
-    margin: 4em;
-}
-img{
-    width: 40%;
-    margin-bottom: 0.5em;
-    display: block;
-    outline: 2px solid #094660;
-    
-}
 .mi1 {
 
     font-family: 'Roboto', sans-serif;
