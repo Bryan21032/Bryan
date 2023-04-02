@@ -4,6 +4,21 @@
     margin: 0px;
     padding: 0px;
 }
+body> div{
+    margin: 1em;
+}
+img{
+    width: 20%;
+    margin-bottom: 0.5em;
+    display: block;
+    outline: 2px solid #094660;
+    
+}
+.gallery{
+    columns: 2 100px;
+    column-gap: 0.5em;
+    transition: all 300ms;
+}
 .mi1 {
 
     font-family: 'Roboto', sans-serif;
