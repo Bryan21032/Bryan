@@ -18,16 +18,41 @@
     <link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
     <link rel="apple-touch-startup-image" href="./img/favicon-16x16.png">
     <link rel="manifest" href="./manifest.json">
+    <script>
+        var visible = false;
+        function iniciar() {
+        var elemento = document.getElementById("menu-img");
+        elemento.addEventListener("click", mostrarMenu);
+        }
+        function mostrarMenu() {
+        var elemento = document.getElementById("menuprincipal");
+        if (!visible) {
+        elemento.style.display = "block";
+        visible = true;
+        } else {
+        elemento.style.display = "none";
+        visible = false;
+        }
+        }
+        window.addEventListener("load", iniciar);
+    </script>
 </head>
 <body>
     <header id="cabeceralogo">
-        <div>
-            <h1 class="mi3">Formularios</h1>
-        </div>
+     <div>
+           <h1 class="mi1">Los Más Vistos</h1>
+      </div>
+        <nav id="menuicono">
+            <img src="iconomenu.png" width="35" height="28" id="menu-img" alt="menu-img">
+        </nav>
     </header>
     <nav id="menuprincipal">
         <ul id="listamenu">
-        <li><a href="index.html">Principal</a>
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="tarea.html">Formulario</a></li>
+            <li><a href="fotos.html">Fotos</a>
+            </li>
+            <li><a href="https://wa.me/+59165771556" "sin signo" + "+numero telefono">contactos</a></li>
         </ul>
     </nav>
 <main>
