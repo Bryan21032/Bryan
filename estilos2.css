@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
+* main {
+    margin: 0px;
+    padding: 0% 4%;
+    
+}
 .mi1 {
 
     font-family: 'Roboto', sans-serif;
