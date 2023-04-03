@@ -2,14 +2,14 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Formularios</title>
-<meta charset="utf-8">
+
     <meta name="description" content="FORMULARIO">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" href="C:\Users\HP CORE i3\Downloads\tarea\books_library_1768.png"  type="image\png
     " sizes="16x16">
     <link rel="stylesheet" href="estilos2.css">
-    <meta name="theme-color" content="#F0DB4F">
     <meta name="MobileOptimized" content="width">
     <meta name="HandheldFriendly" content="true">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,48 +18,22 @@
     <link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
     <link rel="apple-touch-startup-image" href="./img/favicon-16x16.png">
     <link rel="manifest" href="./manifest.json">
-       <script>
-        var visible = false;
-        function iniciar() {
-        var elemento = document.getElementById("menu-img");
-        elemento.addEventListener("click", mostrarMenu);
-        }
-        function mostrarMenu() {
-        var elemento = document.getElementById("menuprincipal");
-        if (!visible) {
-        elemento.style.display = "block";
-        visible = true;
-        } else {
-        elemento.style.display = "none";
-        visible = false;
-        }
-        }
-        window.addEventListener("load", iniciar);
-    </script>
 </head>
-
 <body>
     <header id="cabeceralogo">
-     <div>
-           <h1 class="mi1">Formularios</h1>
-      </div>
-        <nav id="menuicono">
-            <img src="iconomenu.png" width="35" height="28" id="menu-img">
-        </nav>
-        
+        <div>
+            <h1 class="mi3">Formularios</h1>
+        </div>
     </header>
     <nav id="menuprincipal">
         <ul id="listamenu">
-            <li><a href="index.html">Principal</a></li>
-            <li><a href="tarea.html">Formulario</a></li>
-            <li><a href="fotos.html">Fotos</a>
-            </li>
-            <li><a href="https://wa.me/+59165771556" "sin signo" + "+numero telefono">contactos</a></li>
+        <li><a href="index.html">Principal</a>
         </ul>
     </nav>
 <main>
 <section>
     <form id="articulosprincipales">
+        <form name="formulario" method="get" action="procesar.php">
         <p class="mi4"><label>Nombre: <input type="text" name="nombre"
          maxlength="Hombre"></label></p>
         <p class="mi4"><label>Edad: <input type="date" name="fecha" value="2000-02-05"></p>
@@ -84,29 +58,28 @@
         </p>
         <p class="mi4"><input type="submit" value="Enviar"></p>
     </form>
-    
+    </form>
 </section>
 </main>
-    <footer id="pielogo">
-        <div>
-            <section class="seccionpie">
-                <h1>Sitio Web</h1>
-                <p><a href="index.html">Principal</a></p>
-                <p><a href="fotos.html">Fotos</a></p>
-                <p><a href="tarea.html">Formulario</a></p>
-            </section>
-            <section class="seccionpie">
-                <h1>Ayuda</h1>
-                <p><a href="contactos.html">Contacto</a></p>
-            </section>
-            <section class="seccionpie">
-                <address>Toronto, Canada</address>
-                <small>&copy; Derechos Reservados 2016</small>
-            </section>
-            <div class="recuperar"></div>
-        </div>
-    </footer>
-    <script src="./script.js"></script>
+<footer id="pielogo">
+    <div>
+        <section class="seccionpie">
+            <h1>Sitio Web</h1>
+            <p><a href="index.html">Principal</a></p>
+            <p><a href="fotos.html">Fotos</a></p>
+            <p><a href="tarea.html">Formulario</a></p>
+        </section>
+        <section class="seccionpie">
+            <h1>Ayuda</h1>
+            <p><a href="contactos.html">Contacto</a></p>
+        </section>
+        <section class="seccionpie">
+            <address>Toronto, Canada</address>
+            <small>&copy; Derechos Reservados 2016</small>
+        </section>
+        <div class="recuperar"></div>
+    </div>
+</footer>
+<script src="./script.js"></script>
 </body>
-
 </html>
